@@ -1,0 +1,26 @@
+{
+  "clangd.arguments": [
+    "--query-driver=/usr/bin/g*",
+    "--background-index",
+    "--clang-tidy",
+    "--function-arg-placeholders=false",
+    "--compile-commands-dir=build/debug",
+    "--cross-file-rename",
+    "--all-scopes-completion"
+  ],
+  "C_Cpp.intelliSenseEngine": "disabled",
+
+  "files.associations": {
+    "*.h": "cpp",
+    "*.hpp": "cpp",
+    "*.hxx": "cpp",
+    "*.cpp": "cpp",
+    "*.cxx": "cpp",
+    "*.cc": "cpp"
+  },
+
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "editor.formatOnSave": true
+  }
+}

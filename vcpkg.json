@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "builtin-baseline": "a20d95d3c76906363896754eb1cc93db2a694f16",
+    "dependencies": [
+        {
+            "name": "fmt"
+        },
+        {
+            "name": "catch2"
+        }
+    ]
+}

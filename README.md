@@ -61,8 +61,6 @@ EOF
 
 安装工作区建议的插件可以获得更好的体验
 
-.clang-format, .clang-tidy引用自[llama.cpp](https://github.com/ggml-org/llama.cpp)项目
-
 我在CMakePresets.json添加了变量"VCPKG_MANIFEST_INSTALL": "OFF"，这会防止cmake配置时自动安装依赖，增加配置速度，使用`vcpkg install`以手动安装依赖，如果你需要自动安装依赖，请将这个变量值设置为`ON`
 
 编译及运行命令如下
